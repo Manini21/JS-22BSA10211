@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+input, textarea {
+    border: 1px solid black;
+    padding: 5px;
+    width: 250px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+input.error, textarea.error {
+    border: 2px solid red;
+}

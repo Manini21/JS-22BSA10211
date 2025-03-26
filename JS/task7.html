@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Animation</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        #train {
+            position: absolute;
+            left: 0;
+            top: 100px;
+            width: 200px; /* Adjust as per image size */
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <img id="train" src="train.JPG" alt="Train">  <!-- Change 'train.png' to your image file name -->
+    <h2>Click the following buttons to handle animation</h2>
+
+    <div class="buttons">
+        <button onclick="startTrain()">Start</button>
+        <button onclick="stopTrain()">Stop</button>
+    </div>
+
+    <script src="script7.js"></script>
+
+</body>
+</html>

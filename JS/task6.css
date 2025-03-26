@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Card */
+.login-card {
+    background-color: #e6e6e6; /* Grey Card */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+/* Instagram Logo */
+.insta-logo {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+    color: #262626;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.input-container i {
+    margin-right: 10px;
+    color: gray;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background: none;
+    font-size: 16px;
+}
+
+/* Login Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1877f2;
+}
+
+/* Options Section */
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.options a {
+    text-decoration: none;
+    color: #3897f0;
+}
+
+/* Signup Section */
+.signup {
+    margin-top: 20px;
+}
+
+.signup a {
+    color: #3897f0;
+    text-decoration: none;
+}
+
+/* Error Messages */
+.error {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+    display: block;
+    margin-bottom: -5px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between checkbox and text */
+}
+
+.options input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
